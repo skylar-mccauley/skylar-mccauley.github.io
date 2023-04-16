@@ -1,0 +1,39 @@
+<html>
+    <head>
+            <title>Error 404</title>
+            <link rel="icon" href="https://skylarmccauley.com/404/frown.png">
+            <link rel="apple-touch-icon" href="https://skylarmccauley.com/404/frown.png"/>
+            
+            <link rel="stylesheet" type="text/css"  href="https://skylarmccauley.com/404/404.css">
+            <script src="https://skylarmccauley.com/404/404.js"></script>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body onload="animateValue('error-dump', 0, 100, 7500)">
+        <main>
+                <header>
+                  <h1 class="emotion">:(</h1>
+                </header>
+                <div class="main-info">
+                        <p class="description">Your PC ran into a problem and needs to restart. We're just collecting some error info, and then we'll restart for you. </p>
+                        <p class="error-collection"><span role="progress"><span id="error-dump">0</span>% complete</span></p>
+
+                        <div id="restart">
+                                <a href="https://skylarmccauley.com">Restart</a>
+                          </div>
+                </div>
+                
+                <div class="space"></div>
+                  
+                <footer>
+                        <img src="https://skylarmccauley.com/404/qr.svg">
+                        <div class="info">
+                                <p><small>For more information about this issue and possible fixes, visit <a class="hidden-link" href="https://skylarmccauley.com">https://skylarmccauley.com</a>:<br><br>If you call a support person, give them this info:<br>Stop code: <span><script>errorText()</script></span></small></p>
+                        </div>
+                  
+                  
+                </footer>
+        </main>
+
+    </body>
+</html>

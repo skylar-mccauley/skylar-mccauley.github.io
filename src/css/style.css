@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Rubik;
+    src: url("https://skylarmccauley.com/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+/* Colors (This will be very important when implementing dark mode. For now, Light Mode) */
+
+nav, ins {
+    display: none;
+}
+
+:root {
+    --white: #f3f3f3;
+    --pure-white: #FFF;
+    --purple: #5C00A5;
+    --orange: #FF692F;
+    --midnight-black: #000;
+    --black: #202022;
+    --other-black: #262626;
+    --light-black: #2f2f33;
+    --lighter-gray: #e9e9e9;
+    --light-gray: #e7e7e7;
+    --gray: #777;
+    --gray-slight:  #c0c0c0;
+    --dark-gray:#474748;
+    --darker-gray:#616161;
+    --darkerer-gray:#525252;
+  }
+  
+  
+/*  @media (prefers-color-scheme: light) {
+    nav a {
+        color: var(--light-black) !important;
+    }
+    .navbar-default .navbar-brand {
+        color: var(--black) !important;
+    }
+  }
+*/
+body, html {
+    background-color: var(--black);
+
+	font-family: 'Nunito', sans-serif !important;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+}
+.navbar {
+    background: var(--black);
+    color: var(--pure-white);
+    border-color:var(--light-black);
+}
+a.navbar-brand {
+    font-weight: bolder;
+}
+nav a {
+    color: var(--pure-white) !important;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+div.banner {
+  /*  margin-top: 50px; */
+    height: 100vh;
+    position: relative;
+ /*   min-height: 400px;
+    max-height: 400px; */
+    background-image: linear-gradient(to bottom left, var(--purple), var(--orange));
+}
+div.banner .title {
+    /*margin: 0 -15px;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%; /* take the parent's width */
+}
+div.banner a {
+    color: var(--white);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+div.banner .title div {
+    margin: 0 auto;
+    bottom: 50%;
+}
+div.title h2, div.title p{
+    color: var(--white);
+}
+div.title h2 {
+    font-weight: 600;
+    font-size: 4.5em;
+    margin-top: 0;
+}
+div.title p {
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#footer {
+    display: none;
+    color: var(--pure-white);
+    background-color:var(--other-black);
+    padding: 25px 0 25px 0;
+    bottom: 0;
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#footer a{
+    color: orange;
+    font-weight: bold;
+}
+#footer p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.grid {
+    width: auto;
+}
+.grid-container {
+    display: grid;
+    padding: 0;
+    justify-content: center;
+}
+.grid-container {
+    place-items: center;
+    grid-template-rows:1em 1em 1em!important;
+    grid-template-columns: 75px 75px 75px !important;
+}
+.grid-container.alt {
+    place-items: center;
+    grid-template-rows:1em 1em!important;
+    grid-template-columns: 75px 75px!important;
+}
+.grid-container .grid-container {
+    margin-top: 0;
+}
+.grid-container.social a {
+    font-size: 3em;
+    color: var(--lighter-gray)
+    
+}
+.grid-element {
+    border-radius: 50px;
+    background-color:var(--other-black);
+    color: var(--white);
+
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.grid-element img {
+    display: inline;
+}
+.grid-element img.circle{
+    border-radius: 50px;
+}
+.grid-element h3, .grid-element p{
+    color: var(--pure-white);
+    display: inline-block;
+    height: fit-content;
+    margin: 0;
+    width: fit-content;
+}
+.grid-element a:hover {
+    color: var(--gray);
+    background-color: var(--gray);
+}
+.grid-element a {
+    border-radius: 50px;
+    background-color:var(--black);
+    color: var(--light-gray);
+    padding: .5em;
+    margin-top: .2em;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+.grid-element p {
+    width: 100%;
+}
+.grid-element h3 {
+    position: absolute;
+
+}
+.grid-element h5 {
+    color: var(--gray);
+
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+hr {
+    border: 1px solid var(--gray-slight);
+    margin: 1em 25% 2.5em;
+    
+}
+div#about {
+    color: var(--light-black) !important;
+
+    text-align: center;
+    
+    font-weight: bolder;
+}
+div#about p {
+    font-size: 1.5em;
+    display: inline;
+    color: var(--pure-white) !important
+}
+div#contact {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+div#contact a {
+    font-weight: 700;
+}
+#copyEmail {
+    margin-top: 1em;
+}
+
+.btn, a{
+    transition: 0.2s;
+}
+.btn {
+    border-radius: 15px;
+    color: var(--pure-white);
+    border:none;
+    background: var(--other-black);
+}
+.btn:hover {
+    color: var(--light-gray);
+    background: #363636;
+}
+.btn:focus {
+    color: var(--gray);
+    background: #292929;
+
+}
+.btn.btn-large {
+    font-size: 2.5em;
+    justify-self: left;
+    padding:.4em 1em;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.btn.btn-large div.arrow {
+    position: relative;
+    top: 3px;
+    display:inline-block;
+    margin-left:.3em;
+}

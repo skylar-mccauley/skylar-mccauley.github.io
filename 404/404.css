@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Segoe UI Light";
+  font-weight: 300;
+}
+
+    body {
+        font-family: "Segoe UI";
+        color: #FFF;
+        background: #008CFF;
+        margin: 0;
+        letter-spacing: .25px;
+      }
+      a {
+          text-decoration: none;
+      }
+      .hidden-link {
+          color: #fff;
+          transition: all .5s linear;
+      }
+      .hidden-link:hover {
+          transform: scale(1.01)
+      }
+      main {
+        margin-top: 4%;
+        margin-left: 15%; 
+        margin-bottom: 4%; 
+        margin-right: 25%;
+      }
+      @media (max-width:996px) {
+        main {
+            margin-left: 7%; 
+            margin-right: 12%;
+        }
+        
+      }
+      .main-info {
+        margin-right: 15%;
+      }
+      .emotion {
+        font-size: 8em;
+        margin: 0;
+      }
+      
+      .description {
+        font-size: 1.4em;
+        margin-bottom: 1em;
+        margin-right: 15%;
+      }
+      .error-collection {
+          font-size: 1.4em;
+          margin-bottom: 1em;
+      }
+      footer small {
+        font-size: 1.1em;
+      }
+      footer p {
+          margin-bottom: 5%;
+      }
+      footer {
+          margin-top: 0;
+      }
+      #restart a {
+          text-decoration: none;
+          background-color: rgb(0, 98, 179);
+          padding: .35em 1.2em;
+          color: white;
+          font-weight: 400;
+          margin-bottom: 1em;
+      }
+      #restart a:hover {
+          outline: 2px solid rgba(255, 255, 255, 0.5);
+      }
+      #restart a:active {
+          transform: scale(0.5)
+      }
+      #restart {
+          display: none;
+      }
+      img, .info {
+          
+          width: auto;
+          display: inline-block;
+          height: auto;
+      }
+      img {
+          max-width: 10vw;
+      }
+      @media (max-width:512px) {
+            img {
+                display: none;
+            }
+            p {
+                margin: 0;
+            }
+      }
+      @media (max-width: 425) {
+        .main-info {
+            margin-right: 0 !important;
+          }
+          .description {
+            margin-right: 0 !important;
+          }
+      }
+        .space {
+          margin-top: 2em;
+          margin-bottom: 3em;
+      }

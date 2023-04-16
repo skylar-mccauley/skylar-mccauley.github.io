@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1200 1200">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M0+0L1219.63+0L1219.63+1213.97L0+1213.97L0+0Z" opacity="1" fill="#000000"/>
+<g opacity="1">
+<path d="M814.575+285L1058.57+285L1058.57+802.53L814.575+802.53L814.575+285Z" opacity="1" fill="#38ff00"/>
+<path d="M541+684.197L1059.27+684.197L1059.27+928.197L541+928.197L541+684.197Z" opacity="1" fill="#38ff00"/>
+<path d="M175+684.197L693.27+684.197L693.27+928.197L175+928.197L175+684.197Z" opacity="1" fill="#38ff00"/>
+<path d="M696.309+285.197L1054.27+285.197L1054.27+529.197L696.309+529.197L696.309+285.197Z" opacity="1" fill="#38ff00"/>
+</g>
+<path d="M435.5+285L678.5+285C678.776+285+679+285.244+679+285.545L679+528.455C679+528.756+678.776+529+678.5+529L435.5+529C435.224+529+435+528.756+435+528.455L435+285.545C435+285.244+435.224+285+435.5+285Z" opacity="1" fill="#ff0000"/>
+</g>
+</svg>

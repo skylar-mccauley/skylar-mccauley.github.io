@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Retro;
+    src: url("font.ttf");
+}
+img {
+    height: 10vw;
+}
+a {
+    text-decoration: none; 
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h4 a {
+    text-decoration: underline !important;
+    color: #38FF00;
+}
+a div {
+    text-align: center;
+    
+    background-color: #38FF00;
+    color: black !important;
+    margin-top: 3%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 15px;
+    border-radius: 5px;
+}
+body, html, p, p1, p2, p3, p4, h1, h2, h3, h4, h6, b, strong, i, em, mark, small, del, ins, sub, sup, ul, li, ol, a, div {
+    font-family: 'Retro';
+    color: white;
+    text-align: center !important;
+    
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-top: gray 2px solid;
+    padding-bottom: 1em;
+  }
+
+.footer a {
+    margin-top: 5px;
+    padding: 7.5px;
+    border: 2px solid #fff;
+    margin-bottom: 3%;
+}
+.spacer {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}

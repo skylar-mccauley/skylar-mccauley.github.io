@@ -1,0 +1,173 @@
+body, html, .col-lg-6, .col-lg-3 {
+    background-color: #ff8100!important;
+    color: white;
+}
+body {
+  -moz-transition: height .5s;
+  -ms-transition: height .5s;
+  -o-transition: height .5s;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+}
+.center, .row {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .col-lg-3 {
+      display: none !important;
+    }
+    
+  }
+@media (min-width: 451px) {
+    .button {
+        font-size: 15pt;
+    }
+    .box {
+        font-size: 14pt;
+    }
+}
+@media (max-width: 450px) {
+    .button {
+        font-size: 11pt;
+    }
+    .box {
+        font-size: 9pt;
+    }
+}
+@media (max-width: 354px) {
+    .button {
+        font-size: 8pt;
+    }
+    .box {
+        font-size: 9pt;
+    }
+}
+@media (max-width: 328px) {
+    .smol {
+        display: none;
+    }
+}
+.col-lg-6 {
+	margin-bottom: 7%;
+}
+@font-face {
+    font-family: Rubik;
+    src: url("https://skylarmccauley.com/fonts/fonts/Rubik/Rubik-Regular.ttf");
+}
+body, html, p, p1, p2, p3, p4, h1, h2, h3, h4, h6, b, strong, i, em, mark, small, del, ins, sub, sup, ul, li, ol, a, div {
+    font-family: 'Rubik', sans-serif !important;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
+  }
+.box {
+    text-align: center;
+    margin: 10px 50px;
+    padding: 15px;
+    background-color: #ffa952; 
+    border-radius: 15px;
+}
+.box > p {
+    margin: 0 !important;
+}
+.separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: #ffd5ac;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 50px;
+}
+.button {
+    margin: 50px;
+    padding: 15px;
+    background-color: #ffa952; 
+    border-radius: 15px;
+    text-decoration: none !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    color: white;
+    white-space: nowrap !important;
+
+}
+.button:hover {
+    background-color: #e47200; 
+    color: rgb(194, 194, 194);
+}
+.button:focus {
+    background-color: #c26100; 
+    color: rgb(173, 173, 173);
+}
+.left-align {
+    text-align: left !important;
+}
+.banner {
+    margin-top: 25px;
+    border-radius: 15px;
+    width: 20em;
+}
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    width: 70%;
+    border-radius: 50px;
+    border-top: 1.2px solid #ffd5ac !important;
+}
+code {
+    background-color: #ff8000 !important;
+    color: white !important;
+    font-family: monospace !important;
+    white-space: nowrap !important;
+}
+.buffer {
+    margin-top: 7%;
+}
+.credits {
+    text-align: left;
+    background-color: #ffa95270 !important;
+    border-radius: 15px;
+    margin: 50px;
+    padding: 15px;
+    margin-bottom: 0 !important;
+}
+a {
+    -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+p > a {
+    color: #ffe4c8;
+    font-size: 11pt;
+}
+p > a:hover {
+    color: #ffbb76;
+    text-decoration: none;
+}
+hr.short {
+    width: 10%;
+    text-align: left !important;
+}
+.blank-sep {
+    margin-top: 10%;
+}
+.smol {
+    font-size: 8pt;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.widgets {
+    display: none;
+}
+.gr {
+    text-align: left;
+    float: left;
+    font-size: 2em;
+    margin-left: 2em;
+    margin-right: 0 !important;
+}
