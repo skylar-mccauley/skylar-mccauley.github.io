@@ -78,7 +78,7 @@ div.banner .title {
 div.banner a {
     color: var(--white);
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 800;
 }
 div.banner .title div {
     margin: 0 auto;
@@ -88,15 +88,14 @@ div.title h2, div.title p{
     color: var(--white);
 }
 div.title h2 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 4.5em;
     margin-top: 0;
 }
 div.title p {
-    font-weight: 500;
-    font-size: 1.1em;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin: .5em 2em;
+    font-weight: 800;
+    font-size: 1.5em;
 }
 
 #footer {
@@ -203,8 +202,9 @@ div.title p {
 }
 
 hr {
-    border: 1px solid var(--gray-slight);
-    margin: 1em 25% 2.5em;
+    border: .15em solid var(--pure-white);
+    border-radius: .5em;
+    margin: 1.45em 25% 3.5em;
     
 }
 div#about {
@@ -260,4 +260,10 @@ div#contact a {
     top: 3px;
     display:inline-block;
     margin-left:.3em;
+}
+.share {
+    margin-left: .3em;
+}
+.location {
+    margin-right: .3em;
 }
