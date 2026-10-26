@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="application-name" content="Skylar McCauley - Photo Gallery">
+
+  <meta name="description" content="A gallery showing off the best photos I have taken over the years.">
+  <meta name="keywords"
+    content="Photo gallery, skylar photographer, skylar mccauley photo gallery, Skylar, Skylar McCauley, Skylar McCauley Developer, mccauley, skylar, skylar mccauley, skylar mccauley developer, Skylar McCauley Portfolio, McCauley Portfolio, Skylar Portfolio">
+  <meta name="author" content="Skylar McCauley">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- OG Meta Tags-->
+  <meta property="og:title" content="Skylar McCauley - Photo Gallery">
+  <meta property="og:image" content="https://www.skylarmccauley.com/src/img/prof/icon-circle-512.png">
+  <meta property="og:description" content="A gallery showing off the best photos I have taken over the years.">
+  <title>Skylar McCauley - Photo Gallery</title>
+
+  <!-- Favicons -->
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+  <link rel="shortcut icon" href="https://www.skylarmccauley.com/src/img/prof/icon-circle-512.png">
+  <link rel="apple-touch-icon" href="https://www.skylarmccauley.com/src/img/prof/icon-circle-512.png">
+
+ <!-- <script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>-->
+  <link href="../../src/css/font-awesome/css/all.min.css" rel="stylesheet">
+
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Email Copy-->
+<script src="../../src/js/main.js"></script>
+
+<!--Image Carousel-->
+<script src="../src/main_p.js"></script>
+<!--Image Carousel Data-->
+<script type="text/javascript" src="../src/hero-img/desc.json"></script>
+
+  <link rel="stylesheet" href="../src/css/style.css">
+ <!-- <link rel="stylesheet" href="../../src/css/responsive-helper.css"> -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117081817-5');
+  </script>
+</head>
+<body>
+    <div class="center mt-em1">
+        <h1 class="font-bold">Photo Gallery</h1>
+        <h5 class="font-700">by Skylar McCauley</h5>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-4 right">
+            <div class="desc center mt-em2">
+              <p id="camera"></p>
+              <p id="lens"></p>
+              <p id="res"></p>
+              <p id="mp"></p>
+              <p id="mode"></p>
+              <p id="format"></p>
+              <br>
+              <p id="ext">Images are compressed and converted to JPEG for optimal web performance</p>
+          </div>
+          </div>
+          <div class="col-md-5">
+            
+             <!--Photo Viewer-->
+            <div class="mt-em2">
+                <div class="photo-viewer center">
+                    <img id="display_photo" class="center img-fluid" src="../src/hero-img/EX-0.jpeg">
+                    <div class="carousel-loader mt-em2">
+                      <div class="button-container">
+                        <a onClick="nextPhoto(0);"href="javascript:void(0);"><i id="left_btn" class="fa-solid fa-chevron-left bttn button-left inactive"></i></a>
+                    </div>
+                    <div class="button-container">
+                        <a onClick="nextPhoto(1);" href="javascript:void(0);"><i id="right_btn"class="fa-solid fa-chevron-right bttn button-right"></i></a>
+                    </div>
+                    </div>
+                  </div>
+                
+                
+                
+                
+            </div>
+            <!--End of Photo Viewer-->
+            
+          </div>
+          <div class="col-sm left">
+            
+          </div>
+          
+        </div>
+       
+      </div>
+      
+    
+   
+</body>
+</html>

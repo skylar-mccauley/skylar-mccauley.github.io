@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="GridSpacing" value="64"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="ShowGrid" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M65+0L959+0C994.899+0+1024+29.1015+1024+65L1024+959C1024+994.899+994.899+1024+959+1024L65+1024C29.1015+1024+0+994.899+0+959L0+65C0+29.1015+29.1015+0+65+0Z" opacity="1" fill="#000000"/>
+</g>
+<g id="Layer 2" vectornator:layerName="Layer 2">
+<g opacity="1">
+<path d="M146.836+474.336L192.495+474.336L192.495+524.169L146.836+524.169L146.836+574.003L192.495+574.003L192.495+673.671L238.154+673.671L238.154+574.003L283.813+574.003L283.813+673.671L329.472+673.671L329.472+574.003L375.131+574.003L375.131+524.169L329.472+524.169L329.472+474.336L375.131+474.336L375.131+424.502L329.472+424.502L329.472+324.834L283.813+324.834L283.813+424.502L238.154+424.502L238.154+324.834L192.495+324.834L192.495+424.502L146.836+424.502L146.836+474.336ZM238.154+474.336L283.813+474.336L283.813+524.169L238.154+524.169L238.154+474.336Z" opacity="1" fill="#ffffff"/>
+<path d="M444.377+362.209L569.939+499.252L444.377+636.296L444.377+673.671L478.621+673.671L627.013+511.711L627.013+486.794L478.621+324.834L444.377+324.834L444.377+362.209Z" opacity="1" fill="#ffffff"/>
+<path d="M650.6+673.671L878.895+673.671L878.895+623.837L650.6+623.837L650.6+673.671Z" opacity="1" fill="#ffffff"/>
+</g>
+</g>
+</svg>
